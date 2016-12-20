@@ -1,3 +1,5 @@
+// store data structure of a weighted undirected graph
+
 #include <vector>
 #include <cstdio>
 #include <utility>
@@ -9,8 +11,8 @@ int main() {
 	/* 
 	4 3 // 4 vertices, 3 edges
 	0 2 3 // weight(0,2) = 3
-	2 3 1
-	0 3 5
+	2 3 1 // weight(2,3) = 1
+	0 3 5 // weight(0,3) = 5
 	*/
 	int N,E;
 	int u,v,w;
