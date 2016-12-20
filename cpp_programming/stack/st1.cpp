@@ -1,12 +1,13 @@
+// operations of stack (LIFO-Last In First Out)
+// push(i): push an item to stack
+// pop(): remove an item from stack
+// top(): access the top item
+// size(): return the size of stack
+// empty(): check the stack is empty or not
+
 #include <cstdio>
 #include <stack>
 using namespace std;
-// operations of stack (LIFO-Last In First Out)
-// push(i): push an item to stack
-// pop(): get an item from stack
-// top(): return the top item
-// size(): return the size of stack
-// empty(): check the stack is empty or not
 
 int main() {
 
