@@ -1,6 +1,8 @@
 // Union-Find Disjoint Set data structure
 // https://visualgo.net/ufds
 
+// Tai (taitrananhvn@gmail.com, 20.12.2016)
+
 #include <cstdio>
 #include <vector>
 using namespace std;
@@ -53,8 +55,8 @@ public:
 	int numDisjointSets() {
 		return numSets;
 	}
-
 };
+
 int main() {
 	UnionFind UF(3);
 	printf("number of Disjoint sets %d\n",UF.numDisjointSets());

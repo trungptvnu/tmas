@@ -1,4 +1,5 @@
 // store data structure of a weighted undirected graph
+// Tai (taitrananhvn@gmail.com, 20.12.2016)
 
 #include <vector>
 #include <cstdio>
