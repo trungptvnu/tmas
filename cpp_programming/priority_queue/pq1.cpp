@@ -22,6 +22,7 @@ using namespace std;
 
 int main()
 {
+#if 0  //MaxHeap  
     priority_queue<int> myq;
     
     myq.push(2);
@@ -43,6 +44,30 @@ int main()
     myq.pop();
 
     printf("size of queue %d\n", myq.size());
+#endif
+
+#if 1 // MinHeap
+    priority_queue<int, vector<int>, greater<int> > myq;
     
+    myq.push(2);
+    myq.push(5);
+    
+    printf("top element is %d\n", myq.top());
+    printf("top element is %d\n", myq.top());
+   
+    myq.pop();
+    
+    printf("top element is %d\n", myq.top());
+    
+    myq.push(7);
+
+    printf("size of queue %d\n", myq.size());
+
+    printf("top element is %d\n", myq.top());
+ 
+    myq.pop();
+
+    printf("size of queue %d\n", myq.size());
+#endif    
     return 0;
 }
