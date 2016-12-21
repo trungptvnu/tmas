@@ -2,6 +2,7 @@
 // http://www.cplusplus.com/reference/algorithm/sort/
 // http://stackoverflow.com/questions/9025084/sorting-a-vector-in-descending-order
 // http://stackoverflow.com/questions/5038895/does-stdsort-implement-quicksort
+// STL sort uses quicksort algorithm
 
 #include <iostream>     // std::cout, std::greater
 #include <algorithm>    // std::sort

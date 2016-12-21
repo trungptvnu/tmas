@@ -2,7 +2,7 @@
 // Commonly in a queue, ordering will be FIFO
 // sometimes, ordering needs priority, that doesn't care who went to the queue first
 // but consider about priority of element
-// underlying data structure is binary heap
+// underlying data structure is Binary Heap
 // for Maxheap, the priority is based on maximum item (at root, parent > left_child, right_child)
 // for MinHeap, the priority is based on minimum item (at root, parent < left_child, right_child)
 

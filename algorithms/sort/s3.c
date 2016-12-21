@@ -1,4 +1,4 @@
-// idea of quicksort
+// quicksort
 // select a pilot (commonly a[0] or a[end])
 // swap to move all element that < pilot to left side of pilot
 // all elements that > pilot to right side of pilot
@@ -8,7 +8,7 @@
 // patition the array to become
 // a[3] a[6] a[0] a[1] a[2] => return index = 2 (a[0])
 // recursively: quicksort(0,index-1) and quicksort(index+1,end)  
-
+// Complexity: O(nlogn)
 #include <stdio.h>
 
 
