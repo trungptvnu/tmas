@@ -4,13 +4,16 @@
 // cac dinh tren mot do thi trong so co huong
 
 // Dijsktra algorithm
-// trong cac dinh chua tham(chua thuoc Shortest Path Tree), chon 1 dinh U co khoang cach
+// Trong cac dinh chua tham(chua thuoc Shortest Path Tree), chon 1 dinh U co khoang cach
 // tu S nho nhat (Khoi tao, dinh U chinh la S) (==> su dung cau truc du lieu MinHeap - priority_queue O(logn))
 // Danh dau dinh U nay vao Shortest Path Tree
 // Xet cac dinh ke V voi U, update khoang cach nho nhat tu S toi V neu thoa man dieu kien sau
 // dist(V) > dist(U) + weight(U,V)
 // Lap lai qua trinh tren cho den khi moi dinh deu thuoc SPT 
 
+// Ref
+// http://www.geeksforgeeks.org/greedy-algorithms-set-6-dijkstras-shortest-path-algorithm/
+// https://visualgo.net/sssp
 
 #include <cstdio>
 #include <queue>
