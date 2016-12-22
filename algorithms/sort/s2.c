@@ -1,3 +1,5 @@
+// 22.12.2016, Tai<taitrananhvn@gmail.com>
+
 // O(n^2): bubble sort, selection sort, insertion sort
 // O(n*log(n)): merge sort, quick sort
 // gcc sorting.c -std=c99 

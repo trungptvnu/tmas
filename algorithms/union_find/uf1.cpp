@@ -1,3 +1,5 @@
+// 22.12.2016, Tai<taitrananhvn@gmail.com>
+
 // Union-Find Disjoint Set data structure
 // https://visualgo.net/ufds
 

@@ -1,3 +1,5 @@
+// 22.12.2016, Tai<taitrananhvn@gmail.com>
+
 // quicksort
 // select a pilot (commonly a[0] or a[end])
 // swap to move all element that < pilot to left side of pilot

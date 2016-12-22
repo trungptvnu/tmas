@@ -1,5 +1,9 @@
+// 22.12.2016, Tai<taitrananhvn@gmail.com>
+
+// Cac hoat dong Binary Heap
+// Refer
 // http://quiz.geeksforgeeks.org/binary-heap/
-//common Binary Heap operation
+
 #include <iostream>
 #include <cstdio>
 using namespace std;

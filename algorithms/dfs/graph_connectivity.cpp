@@ -1,3 +1,5 @@
+// 22.12.2016, Tai<taitrananhvn@gmail.com>
+
 #if 1
 #include <string> //std::string
 #include <vector>

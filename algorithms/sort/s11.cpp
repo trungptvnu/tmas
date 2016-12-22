@@ -1,3 +1,5 @@
+// 22.12.2016, Tai<taitrananhvn@gmail.com>
+
 // sort algorithm example
 // http://www.cplusplus.com/reference/algorithm/sort/
 // http://stackoverflow.com/questions/9025084/sorting-a-vector-in-descending-order

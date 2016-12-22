@@ -1,3 +1,5 @@
+// 22.12.2016, Tai<taitrananhvn@gmail.com>
+
 #include <stdio.h>
 
 typedef struct node_

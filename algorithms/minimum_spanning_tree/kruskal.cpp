@@ -1,4 +1,4 @@
-// Tai (taitrananhvn@gmail.com, 20.12.2016)
+// 22.12.2016, Tai<taitrananhvn@gmail.com>
 
 // Kruskal algorithm for finding minimum spanning tree in a weighted undirected graph
 // this implementation uses Union-Find Disjoint Set for its data structure
