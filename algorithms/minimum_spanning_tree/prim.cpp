@@ -13,6 +13,10 @@
 // De qui * cho toi khi tat ca cach dinh cua cay deu thuoc MST,
 // Cay MST se co trong so nho nhat
 
+// Ref
+// https://visualgo.net/mst
+// http://www.geeksforgeeks.org/greedy-algorithms-set-5-prims-minimum-spanning-tree-mst-2/
+
 #include <cstdio>
 #include <vector>
 #include <queue>
