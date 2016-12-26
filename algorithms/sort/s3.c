@@ -10,7 +10,8 @@
 // patition the array to become
 // a[3] a[6] a[0] a[1] a[2] => return index = 2 (a[0])
 // recursively: quicksort(0,index-1) and quicksort(index+1,end)  
-// Complexity: O(nlogn)
+// Complexity: O(nlogn), https://www.cise.ufl.edu/class/cot3100fa07/quicksort_analysis.pdf
+
 #include <stdio.h>
 
 
