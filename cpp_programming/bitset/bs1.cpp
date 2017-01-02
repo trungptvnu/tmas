@@ -4,6 +4,7 @@
 #include <cstddef>        // std::size_t
 #include <bitset>         // std::bitset
 using namespace std;
+
 int main ()
 {
     std::bitset<5> foo (std::string("01011"));
