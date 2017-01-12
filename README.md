@@ -1,5 +1,5 @@
 # tmas
------ Include examples on C/C++, Linux/network programming -------
+C/C++, Linux/network programming
 
 
 
