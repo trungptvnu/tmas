@@ -1,4 +1,4 @@
-// compile, (suppose that already exported shared lib)
+// Suppose that we already exported shared lib compiled in gcc
 // g++ prog.cpp -lctest
 
 #include <cstdio>

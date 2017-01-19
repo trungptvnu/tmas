@@ -1,4 +1,5 @@
-// http://www.yolinux.com/TUTORIALS/LibraryArchives-StaticAndDynamic.html
+//http://www.yolinux.com/TUTORIALS/LibraryArchives-StaticAndDynamic.html
+
 1. Create static library (.a)
 Compile: cc -Wall -c ctest1.c ctest2.c 
 Compiler options: 
@@ -10,7 +11,7 @@ cc -o executable-name prog.c libctest.a
 cc -o executable-name prog.c -L/path/to/library-directory -lctest 
 
 
-2. Create dynamic library (.so)
+2. Create dynamic(shared) library (.so)
 gcc -Wall -fPIC -c *.c
 gcc -shared -Wl,-soname,libctest.so.1 -o libctest.so.1.0   *.o
 mv libctest.so.1.0 /lib
