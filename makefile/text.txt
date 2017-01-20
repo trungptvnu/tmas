@@ -1,6 +1,0 @@
-gcc -o out hellomake.c hellofunc.c -I.
-
-gcc -c -o hellomake.o hellomake.c -I.
-gcc -c -o hellofunc.o hellofunc.c -I.
-gcc -o test hellofunc.o hellomake.o -I.
-
