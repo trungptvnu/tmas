@@ -32,7 +32,7 @@ ie.
 nm test.o
 nm test.a
 nm test.so
-
+ 
 Note some symbol type
 T(normal code section), U(undefined symbol used but not defined. Dependency on another library)
 
