@@ -1,4 +1,0 @@
-class maze {
-	public:
-		maze();
-};
